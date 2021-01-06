@@ -48,4 +48,7 @@ For help getting started with Flutter, view the online [documentation](https://f
                 - either two of number or letter or special character is present in password string
           * strong
                 - must consist consists three of number , letterand  special character is present in password string
+                
+## Preview
+![Overview](https://github.com/susantimilsina/strengthPassword/Demo.gif)
 
