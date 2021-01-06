@@ -13,7 +13,8 @@
     <list default="true" id="88ab9745-7081-4eb1-b5e9-a1b32c18ab1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../flutter_notification/android/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_notification/android/app/google-services.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flutter_notification/android/app/src/main/kotlin/com/makura/flutter_notification/MyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_notification/android/app/src/main/kotlin/com/makura/flutter_notification/MyApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
