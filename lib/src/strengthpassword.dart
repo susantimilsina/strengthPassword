@@ -10,7 +10,7 @@ class PasswordField extends StatefulWidget {
   final Color visibleColor, visibleoffColor;
   final bool suffixicon;
   final String counterText;
-  final String hintText, labelText;
+  final String hintText, labelText, emptyPassword, weakPassword;
   final TextStyle hintStyle, labelStyle;
   final InputBorder border, enabledborder, focusedborder;
   final EdgeInsetsGeometry contentpadding;
@@ -22,14 +22,16 @@ class PasswordField extends StatefulWidget {
 
   PasswordField({
     @required this.textEditingController,
-    this.visibleIcon = Icons.visibility,
-    this.visibleoffIcon = Icons.visibility_off,
+    this.visibleIcon = Icons.visibility_off,
+    this.visibleoffIcon = Icons.visibility,
     this.visibleColor = Colors.grey,
     this.visibleoffColor = Colors.grey,
-    this.suffixicon = false,
+    this.suffixicon = true,
     this.counterText = "",
     this.hintText = "Enter Password",
     this.labelText = "Password",
+    this.emptyPassword = "Password is empty",
+    this.weakPassword = "Password is too weak",
     this.hintStyle = const TextStyle(color: Colors.grey),
     this.labelStyle = const TextStyle(color: Colors.black),
     this.border = const OutlineInputBorder(
@@ -129,9 +131,9 @@ class _PasswordFieldState extends State<PasswordField> {
           // The validator receives the text that the user has entered.
           validator: (value) {
             if (value.isEmpty) {
-              return 'Enter the data in field';
+              return widget.emptyPassword;
             } else if (check == "weak") {
-              return "Must contains number, special character or ";
+              return widget.weakPassword;
             }
             return null;
           }),
