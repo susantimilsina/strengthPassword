@@ -6,6 +6,7 @@ import 'package:step_progress_indicator/step_progress_indicator.dart';
 import 'procedures.dart';
 
 class PasswordField extends StatefulWidget {
+  //Can be changed according to user.. made dynamic so that user can made their own text field
   final IconData visibleIcon, visibleoffIcon;
   final Color visibleColor, visibleoffColor;
   final bool suffixicon;
@@ -125,7 +126,7 @@ class _PasswordFieldState extends State<PasswordField> {
           ),
           onChanged: (value) {
             setState(() {
-              check = Strength(value);
+              check = strengthPassword(value);
             });
           },
           // The validator receives the text that the user has entered.
@@ -140,6 +141,7 @@ class _PasswordFieldState extends State<PasswordField> {
       SizedBox(
         height: widget.spacebetween,
       ),
+      //strength widget using stepprogressindicator
       Visibility(
         visible: widget.textEditingController.text.length != 0 ? true : false,
         child: StepProgressIndicator(

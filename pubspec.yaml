@@ -1,6 +1,6 @@
 name: strengthpassword
-description: A new Flutter package.
-version: 0.0.1
+description: A new Flutter package for both android and iOS which helps to find the strength of password and if password is weak it doesnt allow validation
+version: 0.0.2
 homepage: https://github.com/susantimilsina/strengthPassword/
 
 environment:

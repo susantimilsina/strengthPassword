@@ -1,27 +1,38 @@
-String Strength(String password) {
+String strengthPassword(String password) {
   String strength = "weak";
   bool caps = false;
   bool letter = false;
   bool special = false;
-  List<String> result = password.split('');
+  //checking if password contains number or not
   if (RegExp(r'[0-9]').hasMatch(password)) {
     letter = true;
   }
-  if (RegExp(r'[\-_!?#$@&*(){}<>:;.,++$]').hasMatch(password)) {
+  //checking if password contains special character or not
+  if (RegExp(r'[\-_!?#$@&*(){}<>:;.@,+$]').hasMatch(password)) {
     special = true;
   }
+  //checking if password contains uppercase letter or not
   if (RegExp(r'[A-Z]').hasMatch(password)) {
     caps = true;
   }
+
+  //condition of password length is less than 6
   if (password.length < 6) {
     strength = "weak";
-  } else if (_dictionary.contains(password)) {
+  }
+  // condition if password contains common name/password
+  else if (_dictionary.contains(password)) {
     strength = "weak";
-  } else if (RegExp(r'^[0-9]*$').hasMatch(password) ||
+  }
+  //checking if password contains only number or letter or uppercase letter
+  else if (RegExp(r'^[0-9]*$').hasMatch(password) ||
       RegExp(r'^[a-z]*$').hasMatch(password) ||
       RegExp(r'^[A-Z]*$').hasMatch(password)) {
     strength = "weak";
-  } else if (password.length == 6) {
+  }
+  //condition for password length 6
+  else if (password.length == 6) {
+    //determining if password is weak, fair or strong
     if (caps == true && letter == true && special == true) {
       strength = "fair";
     } else if (caps == true && letter == true ||
@@ -31,7 +42,10 @@ String Strength(String password) {
     } else {
       strength = "weak";
     }
-  } else {
+  }
+  //condtion for password length greater than 6
+  else {
+    //determining if password is weak, fair or strong
     if (caps == true && letter == true && special == true) {
       strength = "strong";
     } else if (caps == true && letter == true ||
@@ -47,6 +61,7 @@ String Strength(String password) {
   return strength;
 }
 
+//list of common password written
 final _dictionary = Set.from([
   '123456',
   'password',

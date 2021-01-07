@@ -13,8 +13,12 @@
     <list default="true" id="88ab9745-7081-4eb1-b5e9-a1b32c18ab1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../flutter_notification/android/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_notification/android/app/google-services.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flutter_notification/android/app/src/main/kotlin/com/makura/flutter_notification/MyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_notification/android/app/src/main/kotlin/com/makura/flutter_notification/MyApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/procedures.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/procedures.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/strengthpassword.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/strengthpassword.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,22 +87,22 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1609929029153" />
-    <state width="881" height="244" key="GridCell.Tab.0.bottom" timestamp="1609942035611">
+    <state width="881" height="244" key="GridCell.Tab.0.bottom" timestamp="1609945268244">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="881" height="244" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1609942035611" />
-    <state width="881" height="244" key="GridCell.Tab.0.center" timestamp="1609942035611">
+    <state width="881" height="244" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1609945268244" />
+    <state width="881" height="244" key="GridCell.Tab.0.center" timestamp="1609945268243">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="881" height="244" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1609942035611" />
-    <state width="881" height="244" key="GridCell.Tab.0.left" timestamp="1609942035610">
+    <state width="881" height="244" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1609945268243" />
+    <state width="881" height="244" key="GridCell.Tab.0.left" timestamp="1609945268243">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="881" height="244" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1609942035610" />
-    <state width="881" height="244" key="GridCell.Tab.0.right" timestamp="1609942035611">
+    <state width="881" height="244" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1609945268243" />
+    <state width="881" height="244" key="GridCell.Tab.0.right" timestamp="1609945268243">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="881" height="244" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1609942035611" />
+    <state width="881" height="244" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1609945268243" />
     <state x="924" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1609910507633">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
