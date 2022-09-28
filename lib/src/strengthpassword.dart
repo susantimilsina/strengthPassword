@@ -22,7 +22,7 @@ class PasswordField extends StatefulWidget {
   final Color unselectedColor;
 
   PasswordField({
-    @required this.textEditingController,
+    required this.textEditingController,
     this.visibleIcon = Icons.visibility_off,
     this.visibleoffIcon = Icons.visibility,
     this.visibleColor = Colors.grey,
@@ -131,7 +131,7 @@ class _PasswordFieldState extends State<PasswordField> {
           },
           // The validator receives the text that the user has entered.
           validator: (value) {
-            if (value.isEmpty) {
+            if (value == null || value.isEmpty) {
               return widget.emptyPassword;
             } else if (check == "weak") {
               return widget.weakPassword;
